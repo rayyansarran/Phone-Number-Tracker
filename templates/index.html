@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Phone Number Tracker</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+    <link rel="shortcut icon" href="/static/search.png" type="image/x-icon">
+
+</head>
+<body>
+    <div class="container">
+        
+        <img src="/static/logo image.png" alt="Logo">
+        <h1>Track Numbers Like Never Before :)</h1>
+        
+        <div class="search-box">
+            <input type="text" id="countryCode" placeholder="Country Code (eg:+91)">
+            <input type="text" id="phoneNumber" placeholder="Phone Number"><br>
+            <button id="search">Search</button>
+        </div>
+        <div class="results">
+            <div class="attribute">
+                <h3 class="label">Country:</h3>
+                <h3 class="label">Sim:</h3>
+                <h3 class="label">Timezone:</h3>              
+                <h3 class="label">Latitude:</h3>              
+                <h3 class="label">Longitude:</h3>
+                <h3 class="label">Phone Time:</h3>            
+            </div>
+            <div class="result">
+                <h3 id="country" class="value"></h3>
+                <h3 id="sim" class="value"></h3>
+                <h3 id="timezone" class="value"></h3> 
+                <h3 id="latitude" class="value"></h3>
+                <h3 id="longitude" class="value"></h3>
+                <h3 id="clock" class="value"></h3>
+                <h3 id="clock" class="value"></h3>
+            </div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
